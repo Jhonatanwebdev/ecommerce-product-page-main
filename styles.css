@@ -100,115 +100,6 @@
     min-width: 300px;
   }
 }
-/** ESTILOS DE LA SECCION DEL PRODUCTO**/
-.carousel-control-next, .carousel-control-prev {
-  opacity: 1 !important;
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  width: unset !important;
-  height: unset !important;
-  background-image: none !important;
-  background-color: var(--white);
-  border-radius: 50%;
-}
-
-.carousel-control-next-icon {
-  padding: 10px 15px 12px 18px;
-}
-
-.carousel-control-prev-icon {
-  padding: 10px 18px 12px 15px;
-}
-
-.product-img-lg {
-  max-height: 450px !important;
-}
-
-.btn-thumbnail {
-  border: none !important;
-}
-
-.btn-thumbnail img {
-  transition: 0.3s ease-in-out;
-}
-
-.btn-thumbnail img:hover {
-  opacity: 0.6;
-}
-
-.btn-thumbnail.selected img {
-  opacity: 0.6;
-  border: 2px solid var(--orange);
-}
-
-h3, .h3 {
-  color: var(--orange);
-  font-size: 0.85rem;
-  letter-spacing: 0.1rem;
-}
-
-.product-desc p {
-  font-size: 0.9rem;
-  color: var(--dark-grayish-blue);
-  line-height: 1.6rem;
-}
-
-.product-price {
-  letter-spacing: 1px;
-}
-
-.product-disc {
-  color: var(--orange) !important;
-  background-color: var(--pale-orange) !important;
-  font-weight: 700;
-  font-size: 0.9rem;
-}
-
-.product-total {
-  text-decoration: line-through;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--grayish-blue);
-}
-
-.product-quantity {
-  background-color: var(--light-grayish-blue);
-}
-
-#btn-minus-quantity img {
-  transform: translateY(-1px);
-}
-
-#txt-quantity {
-  width: 30px;
-  color: black;
-}
-
-#btn-add-quantity img {
-  transform: translateY(-2px);
-}
-
-.btn-addtocart {
-  background-color: var(--orange);
-  font-size: 0.85rem;
-  font-weight: 600;
-  box-shadow: 0px 10px 25px -10px rgba(255, 125, 26, 0.6), 0px 5px 15px -8px #ff7d1a;
-}
-
-.btn-transition {
-  transition: 0.3s ease-in-out;
-}
-
-.btn-transition:hover, .btn-transition:active {
-  scale: 1.02;
-  opacity: 0.8;
-}
-
-.btn-transition:active {
-  opacity: 0.6;
-}
-
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -12206,6 +12097,115 @@ input::-webkit-inner-spin-button {
     max-width: 1140px !important;
   }
 }
+/** ESTILOS DE LA SECCION DEL PRODUCTO**/
+.carousel-control-next, .carousel-control-prev {
+  opacity: 1 !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: unset !important;
+  height: unset !important;
+  background-image: none !important;
+  background-color: var(--white);
+  border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+  padding: 10px 15px 12px 18px;
+}
+
+.carousel-control-prev-icon {
+  padding: 10px 18px 12px 15px;
+}
+
+.product-img-lg {
+  max-height: 450px !important;
+}
+
+.btn-thumbnail {
+  border: none !important;
+}
+
+.btn-thumbnail img {
+  transition: 0.3s ease-in-out;
+}
+
+.btn-thumbnail img:hover {
+  opacity: 0.6;
+}
+
+.btn-thumbnail.selected img {
+  opacity: 0.6;
+  border: 2px solid var(--orange);
+}
+
+h3, .h3 {
+  color: var(--orange);
+  font-size: 0.85rem;
+  letter-spacing: 0.1rem;
+}
+
+.product-desc p {
+  font-size: 0.9rem;
+  color: var(--dark-grayish-blue);
+  line-height: 1.6rem;
+}
+
+.product-price {
+  letter-spacing: 1px;
+}
+
+.product-disc {
+  color: var(--orange) !important;
+  background-color: var(--pale-orange) !important;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.product-total {
+  text-decoration: line-through;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--grayish-blue);
+}
+
+.product-quantity {
+  background-color: var(--light-grayish-blue);
+}
+
+#btn-minus-quantity img {
+  transform: translateY(-1px);
+}
+
+#txt-quantity {
+  width: 30px;
+  color: black;
+}
+
+#btn-add-quantity img {
+  transform: translateY(-2px);
+}
+
+.btn-addtocart {
+  background-color: var(--orange);
+  font-size: 0.85rem;
+  font-weight: 600;
+  box-shadow: 0px 10px 25px -10px rgba(255, 125, 26, 0.6), 0px 5px 15px -8px #ff7d1a;
+}
+
+.btn-transition {
+  transition: 0.3s ease-in-out;
+}
+
+.btn-transition:hover, .btn-transition:active {
+  scale: 1.02;
+  opacity: 0.8;
+}
+
+.btn-transition:active {
+  opacity: 0.6;
+}
+
 /** ESTILOS DEL LIGHTBOX **/
 .icon-close-white {
   width: 18px;
